@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\autologon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\CS\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\user\\Desktop\\CS\\API\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\CS\\API\\API\\obj\\",
+      "projectPath": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

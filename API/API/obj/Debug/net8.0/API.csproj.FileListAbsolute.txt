@@ -23,3 +23,29 @@ C:\Users\user\Desktop\CS\API\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\user\Desktop\CS\API\API\obj\Debug\net8.0\API.pdb
 C:\Users\user\Desktop\CS\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\user\Desktop\CS\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\appsettings.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\API.exe
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\API.deps.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\API.runtimeconfig.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\API.dll
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\bin\Debug\net8.0\API.pdb
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.dll
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\refint\API.dll
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.pdb
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
+C:\Users\autologon\Desktop\Dev SoftVis\desenvolvimento-software-visual-quarta\API\API\obj\Debug\net8.0\ref\API.dll

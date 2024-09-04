@@ -1,10 +1,10 @@
 ### primeira funcionalidade
 GET http://localhost:5164
 
-### segundo teste
+### segundo teste - texto aleatória
 GET http://localhost:5164/mickey
 
-### terceiro teste
+### terceiro teste - um dynamic dentro do GetMap()
 GET http://localhost:5164/retornarEndereco
 
 ### quarto teste - receber info pela URL da requesição

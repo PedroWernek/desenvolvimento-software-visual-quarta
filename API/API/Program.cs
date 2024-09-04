@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -8,7 +6,19 @@ var app = builder.Build();
 //lista para o sexto item
 List<UserInfo> listaUsuarios = new List<UserInfo>();
 
-// primeiro:
+//EndPoints - Funcionalidades
+// Configurar URL metodo/verbo HTTP
+//GET - pegar alguma coisa
+
+//Toda a aplicação tem CRUD
+
+//Métodos HTTP
+// Create - Post
+// Retrieve - Get
+// Update - Put/Patch
+// Delete - Delete
+
+//nova funcionalidade --> metodo => convenção
 app.MapGet("/", () => "Hello World!");
 
 // segundo:
@@ -21,9 +31,10 @@ app.MapGet("/retornarEndereco", () =>
   dynamic endereco = new
   {
     rua = "João",
-    numero = "613",
+    numero = 613,
     CEP = "23456-654"
   };
+
   return endereco;
 });
 
