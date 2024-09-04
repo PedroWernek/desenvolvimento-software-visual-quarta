@@ -1,0 +1,23 @@
+### primeira funcionalidade
+GET http://localhost:5164
+
+### segundo teste
+GET http://localhost:5164/mickey
+
+### terceiro teste
+GET http://localhost:5164/retornarEndereco
+
+### quarto teste - receber info pela URL da requesição
+GET http://localhost:5164/receberinfo/Pedro/19
+
+### quito teste - receber info pelo corpo
+GET http://localhost:5164/receberinfopelocorpo
+Content-Type: application/json
+
+{
+  "Nome": "Pedro",
+  "Idade": 19
+}
+
+### sexto teste
+GET http://localhost:5164/lista
