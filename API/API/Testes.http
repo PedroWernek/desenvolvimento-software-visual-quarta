@@ -5,8 +5,18 @@ GET http://localhost:5164
 GET http://localhost:5164/produto/listar
 
 ### Cadastrar Produtos
-POST http://localhost:5164/produto/cadastrar/memesBrasileiros
+//POST http://localhost:5164/produto/cadastrar/memesBrasileiros
+POST http://localhost:5164/produto/cadastrar
+Content-Type: application/json
 
+{
+    "nome": "Mouse",
+    "preco": 80.1,
+    "quantidade": 20
+}
+
+### Buscar produto
+GET http://localhost:5164/produto/buscar/Mouse
 
 
 # ### segundo teste - texto aleatória

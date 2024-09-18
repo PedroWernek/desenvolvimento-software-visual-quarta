@@ -1,4 +1,5 @@
 using API.Models;
+using Microsoft.AspNetCore.Mvc;
 //using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,47 +25,80 @@ var app = builder.Build();
 app.MapGet("/", () => "API de Produtos");
 
 List<Produto> produtos = new List<Produto>();
-produtos.Add(new Produto()
-  {
-    Nome = "Notebook",
-    Preco = 5000,
-    Quantidade = 54
-  });
-  produtos.Add(new Produto()
-  {
-    Nome = "PC",
-    Preco = 7000,
-    Quantidade = 14
-  });
-  produtos.Add(new Produto()
-  {
-    Nome = "Monitor Pichau",
-    Preco = 3000,
-    Quantidade = 14
-  });
-  produtos.Add(new Produto()
-  {
-    Nome = "Notebook acer",
-    Preco = 32000,
-    Quantidade = 104
-  });
+// produtos.Add(new Produto()
+//   {
+//     Nome = "Notebook",
+//     Preco = 5000,
+//     Quantidade = 54
+//   });
+//   produtos.Add(new Produto()
+//   {
+//     Nome = "PC",
+//     Preco = 7000,
+//     Quantidade = 14
+//   });
+//   produtos.Add(new Produto()
+//   {
+//     Nome = "Monitor Pichau",
+//     Preco = 3000,
+//     Quantidade = 14
+//   });
+//   produtos.Add(new Produto()
+//   {
+//     Nome = "Notebook acer",
+//     Preco = 32000,
+//     Quantidade = 104
+//   });
 
 //GET: produto/listar
 app.MapGet("/produto/listar", () => 
 {
-  return Results.Ok(produtos);
+  //se a lista tem pelo menos 1 item
+  if(produtos.Count() > 0)
+  {
+    //retorno de requisição
+    //count conta a qtd de itens da lista
+    //Any retorna um true ou false se tem algo dentro da lista
+    return Results.Ok(produtos);
+  }
+
+  //404 (not found) qualquer recurso não encontrado
+  return Results.NotFound();
+
 });
 
 //POST: produto/cadastrar
-app.MapPost("/produto/cadastrar/{nome}", (string nome) => 
+//Por possuir informações sensiveis não é ideal usar esse metodo Post
+// app.MapPost("/produto/cadastrar/{nome}", (string nome) => 
+// {
+//   //criar o objeto e preencher
+//   Produto produto = new Produto();
+//   produto.Nome = nome;
+//   produtos.Add(produto);
+//   //retorno de requisição
+//   return Results.Ok(produtos);
+// });
+
+app.MapGet("/produto/buscar/{nome}", (string nome) => 
 {
-  Produto produto = new Produto();
-  produto.Nome = nome;
-  produtos.Add(produto);
-  return Results.Ok(produtos);
+  foreach(Produto produtoCadastrado in produtos){
+    if(produtoCadastrado.Nome == nome){
+        return Results.Ok(produtoCadastrado);
+    }
+  }
+
+  return Results.NotFound();
 });
 
+//não tem como passar um objeto da URL
+app.MapPost("/produto/cadastrar", ([FromBody] Produto produto) =>
+{
+  produtos.Add(produto);
 
+  return Results.Created("", produto);
+});
+
+app.MapDelete("/produto/deletar" => {});
 // Produto produto = new Produto()
 // {
 //   Nome = "Notebook",

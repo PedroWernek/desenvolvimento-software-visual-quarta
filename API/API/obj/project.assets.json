@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\autologon\\Desktop\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
+      "projectPath": "C:\\Users\\autologon\\Desktop\\desenvolvimento-software-visual-quarta\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\autologon\\Desktop\\Dev SoftVis\\desenvolvimento-software-visual-quarta\\API\\API\\obj\\",
+      "outputPath": "C:\\Users\\autologon\\Desktop\\desenvolvimento-software-visual-quarta\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config"
