@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Produto } from "../../../models/Produto";
 import "../../../css/ProdutoCadastro.css"
+import { Categoria } from "../../../models/Categoria";
 function ProdutoCadastro() {
 
     const [nome, setNome] = useState("");
     const [descricao, setDescricao] = useState("");
     const [quantidade, setQuantidade] = useState("");
     const [preco, setPreco] = useState("");
+    const [categoria, setCategoria] = useState<Categoria>();
 
     function enviarProduto(e : any){
         e.preventDefault();
@@ -62,7 +64,15 @@ function ProdutoCadastro() {
             <input type="number" id="quantidade" name="quantidade" 
                 onChange={(e: any) => setQuantidade(e.target.value)} />
         </div>
+        <div>
+            <label htmlFor="categoria">Categoria</label>
+                <select onChange={e => console.log(e.target.value)}>
+                    <option value="1">Bebidas</option>
+                    <option value="2">Comidas</option>
+                    <option value="3">Roupas</option>
+                </select>
 
+        </div>
         <button type="submit">Cadastrar Produto</button>
     </form>
 </div>
