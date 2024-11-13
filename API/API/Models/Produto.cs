@@ -2,35 +2,28 @@
 
 public class Produto
 {
-    // C# - construtor da classe
+    //C# - Contrutor da classe
     public Produto()
     {
         Id = Guid.NewGuid().ToString();
         CriadoEm = DateTime.Now;
     }
-
-    //C# - Atributo com 'get' e 'set'
-    //Capitalização:
-    //PascalCase - Classe/Criação de metodos
-    public DateTime CriadoEm { get; set; }
+    //C# - Atributo com get e set
     public string? Id { get; set; }
     public string? Nome { get; set; }
+    public string? Descricao { get; set; }
     public double Preco { get; set; }
     public int Quantidade { get; set; }
+    public DateTime CriadoEm { get; set; }
 
-    //JAVA - Atributo com 'get' e 'set'
-    //Capitalização:
-
-    //CamelCase
+    //JAVA - Atributo com get e set
     // private double preco;
-
-    // public double getPreco(){
+    // public double getPreco()
+    // {
     //     return preco;
     // }
-
-    // public void setPreco(double preco){
-    //     this.preco = preco;  
+    // public void setPreco(double preco)
+    // {
+    //     this.preco = preco * 3;
     // }
-
-
 }

@@ -1,0 +1,84 @@
+/* Estilos principais para o formulário */
+#cadastrar_produto {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o título ou cabeçalho */
+  #cadastrar_produto h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo geral para os rótulos (labels) */
+  #cadastrar_produto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Estilo para os campos de input */
+  #cadastrar_produto input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  /* Foco nos campos de input */
+  #cadastrar_produto input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Estilo para o botão */
+  #cadastrar_produto button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Efeito de hover no botão */
+  #cadastrar_produto button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para o layout do formulário */
+  #cadastrar_produto div {
+    margin-bottom: 15px;
+  }
+  
+  /* Para telas menores, ajustar o formulário */
+  @media (max-width: 600px) {
+    #cadastrar_produto {
+      padding: 15px;
+    }
+  
+    #cadastrar_produto h2 {
+      font-size: 20px;
+    }
+  
+    #cadastrar_produto input,
+    #cadastrar_produto button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+c:\Users\autologon\Desktop\prova\desenvolvimento-software-visual-quarta\.git  
